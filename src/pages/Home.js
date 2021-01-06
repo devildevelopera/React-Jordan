@@ -1,14 +1,10 @@
+import Header from '../components/Header';
 import './Home.scss';
+
 const Home = () => {
     return (
         <div className="container">
-            <div className="top-bar">
-                <div className="close"><span >✕</span></div>
-                <div className="top-nav">
-                    <h4>🔒 LOGINS</h4>
-                    <h4>📧 CONTACT</h4>
-                </div>
-            </div>
+            <Header />
             <div className="main">
                 <div className="side-nav">
                     <h2>HOME</h2>

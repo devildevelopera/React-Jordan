@@ -2,47 +2,6 @@
     background-image: radial-gradient(farthest-corner at 40px 100vh,#fff 50%, #0071bc 100%);
     height: calc(100vh + 50px);
 
-    .top-bar {
-
-        .close {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            background: red;
-            margin-left: -50px;
-            margin-top: -50px;
-            position: relative;
-            cursor: pointer;
-    
-            span {
-                position: absolute;
-                top: 60px;
-                left: 60px;
-                font-size: 20px;
-                color: #fff;
-                font-weight: 900;
-            }
-        }
-
-        .top-nav {
-            display: flex;
-            flex-direction: row;
-            position: absolute;
-            right: 0px;
-            top: 0px;
-    
-            &>h4 {
-                padding: 5px 25px;
-                cursor: pointer;
-    
-                &:hover {
-                    color: red;
-                }
-            }
-        }
-        
-    }
-
     .main {
 
         margin-left: 10%;
